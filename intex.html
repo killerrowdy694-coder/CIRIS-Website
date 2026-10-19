@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b0b0d">
+  <meta name="description" content="Krish Kumar | CIRIS — My Life, My Journey, My Identity.">
+  <title>Krish Kumar | CIRIS</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+
+  <header class="header">
+    <a href="#home" class="brand">
+      <span class="brand-icon">C</span>
+      <span>CIRIS<span class="gold">.</span>
+        <small>KRISH KUMAR</small>
+      </span>
+    </a>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+
+    <nav class="nav" id="nav">
+      <a href="#home">Home</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#story">My Story</a>
+      <a href="#dreams">Dreams</a>
+      <a href="#memories">Memories</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="icon-btn" id="themeBtn" aria-label="Toggle theme"
+      title="Dark / Light mode">☼</button>
+  </header>
+
+  <main>
+    <!-- 1. HOME -->
+    <section class="hero section" id="home">
+      <div class="hero-content">
+        <span class="eyebrow"><span class="live-dot"></span> WELCOME TO MY WORLD</span>
+
+        <h1>KRISH<br><span class="gold">KUMAR</span></h1>
+        <div class="nickname">ALSO KNOWN AS <strong>CIRIS</strong></div>
+
+        <p class="tagline">My Life, My Journey, My Identity.</p>
+
+        <p class="hero-description">
+          मेरी पहचान मेरे नाम से नहीं, मेरे काम से बनेगी।
+          यह मेरी कहानी, मेरे सपनों और मेरी पहचान की एक छोटी-सी दुनिया है।
+        </p>
+
+        <div class="typing-line">
+          <span class="gold">I believe in </span>
+          <span id="typingText">Dreaming Big</span><span class="cursor">|</span>
+        </div>
+
+        <div class="hero-actions">
+          <a href="#story" class="btn btn-gold">मेरी कहानी जानें ↗</a>
+          <a href="#gallery" class="btn btn-outline">मेरी Photos देखें</a>
+        </div>
+
+        <div class="hero-social">
+          <a href="https://www.instagram.com/xx_ciris/"
+             target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+          <span>•</span>
+          <a href="https://www.youtube.com/@KrishandSuhani"
+             target="_blank" rel="noopener noreferrer">YouTube ↗</a>
+          <span>•</span>
+          <button id="shareBtn" class="text-button">Share Profile ↗</button>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="hero-photo-frame">
+          <img src="images/profile.jpg" alt="Krish Kumar"
+               class="hero-photo" id="profilePhoto">
+          <div class="photo-placeholder" id="profilePlaceholder">
+            <span class="placeholder-letter">C</span>
+            <span>YOUR PHOTO HERE</span>
+            <small>images/profile.jpg</small>
+          </div>
+        </div>
+        <div class="floating-card card-top">
+          <span class="gold">✦</span> Dream. Learn. Grow.
+        </div>
+        <div class="floating-card card-bottom">
+          <span class="gold">01 / ∞</span>
+          <small>MY JOURNEY</small>
+        </div>
+        <span class="visual-caption">A STORY STILL BEING WRITTEN</span>
+      </div>
+
+      <a href="#about" class="scroll-indicator">SCROLL TO EXPLORE ↓</a>
+    </section>
+
+    <!-- INTRODUCTION -->
+    <section class="section intro-section" id="about">
+      <div class="section-heading">
+        <span class="eyebrow">A LITTLE ABOUT ME</span>
+        <h2>Not Just a Name.<br><span class="gold">A Journey.</span></h2>
+      </div>
+
+      <div class="intro-grid">
+        <article class="quote-card">
+          <span class="quote-mark">“</span>
+          <h3>मेरी पहचान मेरे नाम से नहीं, मेरे काम से बनेगी।</h3>
+          <p>
+            मैं चाहता हूँ कि एक दिन लोग मुझे सिर्फ मेरे नाम से नहीं,
+            बल्कि मेरे काम, मेरी सफलता और मेरे व्यवहार से पहचानें।
+            मेरी कोशिश रहेगी कि मैं अपनी मेहनत से ऐसी पहचान बनाऊँ
+            जिस पर मुझे और मेरे परिवार को गर्व हो।
+          </p>
+          <span class="quote-number">01 — MY IDENTITY</span>
+        </article>
+
+        <article class="quote-card">
+          <span class="quote-mark">“</span>
+          <h3>मेरे सपने मेरी ताकत हैं।</h3>
+          <p>
+            मेरे सपने छोटे नहीं हैं। मैं जिंदगी में आगे बढ़ना चाहता हूँ,
+            नई चीजें सीखना चाहता हूँ और अपनी एक अलग दुनिया बनाना चाहता हूँ।
+            मुझे विश्वास है कि सही दिशा में की गई मेहनत एक दिन जरूर रंग लाएगी।
+          </p>
+          <span class="quote-number">02 — MY DREAMS</span>
+        </article>
+
+        <article class="quote-card">
+          <span class="quote-mark">“</span>
+          <h3>मेरे परिवार की खुशी मेरे लिए बहुत मायने रखती है।</h3>
+          <p>
+            मेरी सफलता का असली मतलब सिर्फ पैसा कमाना या बड़ा पद हासिल
+            करना नहीं है। मेरे लिए सफलता का मतलब अपने परिवार को खुश देखना,
+            उनकी उम्मीदों पर खरा उतरना और उन्हें बेहतर जिंदगी देने की
+            कोशिश करना भी है।
+          </p>
+          <span class="quote-number">03 — MY FAMILY</span>
+        </article>
+      </div>
+    </section>
+
+    <!-- 2. PHOTO GALLERY -->
+    <section class="section" id="gallery">
+      <div class="section-heading">
+        <span class="eyebrow">CAPTURED MOMENTS</span>
+        <h2>My Photo <span class="gold">Gallery.</span></h2>
+        <p>हर तस्वीर एक पल है, और हर पल की अपनी कहानी है।</p>
+      </div>
+
+      <div class="gallery-toolbar">
+        <input id="photoSearch" type="search"
+          placeholder="Search photos by name..." aria-label="Search photos">
+        <button id="slideshowBtn" class="btn btn-outline">▶ Start Slideshow</button>
+      </div>
+
+      <div class="filter-row" id="galleryFilters">
+        <button class="filter-btn active" data-filter="all">All Photos</button>
+        <button class="filter-btn" data-filter="portrait">My Photos</button>
+        <button class="filter-btn" data-filter="travel">Travel</button>
+        <button class="filter-btn" data-filter="memories">Memories</button>
+      </div>
+
+      <div class="gallery-grid" id="galleryGrid">
+        <!-- Replace these sample filenames with your actual photo filenames. -->
+        <button class="gallery-card" data-category="portrait"
+          data-src="images/photo1.jpg" data-title="My Portrait">
+          <span class="gallery-placeholder"><b>01</b><span>ADD YOUR PHOTO</span></span>
+          <span class="gallery-caption">My Portrait <small>MY PHOTOS</small></span>
+        </button>
+
+        <button class="gallery-card" data-category="travel"
+          data-src="images/photo2.jpg" data-title="Travel Memories">
+          <span class="gallery-placeholder"><b>02</b><span>TRAVEL MOMENT</span></span>
+          <span class="gallery-caption">Travel Memories <small>TRAVEL</small></span>
+        </button>
+
+        <button class="gallery-card" data-category="memories"
+          data-src="images/photo3.jpg" data-title="Special Moment">
+          <span class="gallery-placeholder"><b>03</b><span>ADD A MEMORY</span></span>
+          <span class="gallery-caption">Special Moment <small>MEMORIES</small></span>
+        </button>
+
+        <button class="gallery-card" data-category="portrait"
+          data-src="images/photo4.jpg" data-title="Another Side of Me">
+          <span class="gallery-placeholder"><b>04</b><span>ADD YOUR PHOTO</span></span>
+          <span class="gallery-caption">Another Side of Me <small>MY PHOTOS</small></span>
+        </button>
+
+        <button class="gallery-card" data-category="travel"
+          data-src="images/photo5.jpg" data-title="New Experiences">
+          <span class="gallery-placeholder"><b>05</b><span>NEW EXPERIENCE</span></span>
+          <span class="gallery-caption">New Experiences <small>TRAVEL</small></span>
+        </button>
+
+        <button class="gallery-card" data-category="memories"
+          data-src="images/photo6.jpg" data-title="A Day to Remember">
+          <span class="gallery-placeholder"><b>06</b><span>ADD A MEMORY</span></span>
+          <span class="gallery-caption">A Day to Remember <small>MEMORIES</small></span>
+        </button>
+      </div>
+
+      <p class="gallery-note">
+        अपनी photos को images folder में रखकर ऊपर दिए गए filenames से match करें।
+        अपनी असली तस्वीरें जोड़ने के बाद ये sample placeholders हट जाएँगे।
+      </p>
+    </section>
+
+    <!-- 3. MY LIFE STORY -->
+    <section class="section story-section" id="story">
+      <div class="section-heading">
+        <span class="eyebrow">THE STORY SO FAR</span>
+        <h2>My Life, <span class="gold">My Story.</span></h2>
+        <p>हर नया कदम, एक नई सीख। मेरी यात्रा अभी जारी है।</p>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-label">MY ROOTS</span>
+            <h3>Muzaffarpur, Bihar</h3>
+            <p>यहीं से मेरी कहानी और मेरी पहचान का सफर शुरू होता है।</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-label">MY EDUCATION</span>
+            <h3>School Life</h3>
+            <p>मेरी पढ़ाई की यात्रा, नए अनुभव और आगे बढ़ने की तैयारी।</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-label">A NEW CHAPTER</span>
+            <h3>Technology & Engineering</h3>
+            <p>नई skills सीखना और अपने future goals की दिशा में कदम बढ़ाना।</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-label">THE JOURNEY CONTINUES</span>
+            <h3>The Best Is Yet to Come.</h3>
+            <p>मेरी कहानी अभी पूरी नहीं हुई है। आगे के अध्याय मेहनत और अनुभवों से लिखे जाएँगे।</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 4. DREAMS & GOALS -->
+    <section class="section" id="dreams">
+      <div class="section-heading">
+        <span class="eyebrow">VISION FOR TOMORROW</span>
+        <h2>Dream Big.<br><span class="gold">Build Your Future.</span></h2>
+        <p>सपने दिशा देते हैं, और लगातार कोशिश हमें आगे बढ़ाती है।</p>
+      </div>
+
+      <div class="dream-grid">
+        <article class="dream-card">
+          <div class="dream-icon">⌘</div>
+          <span class="eyebrow">MY GOAL</span>
+          <h3>Engineer</h3>
+          <p>Technology सीखना, अपनी skills को बेहतर करना और एक Engineer बनने की दिशा में आगे बढ़ना।</p>
+          <span class="dream-tag">LEARN · BUILD · GROW</span>
+        </article>
+
+        <article class="dream-card dream-featured">
+          <div class="dream-icon">✦</div>
+          <span class="eyebrow">MY DREAM</span>
+          <h3>Business Man</h3>
+          <p>अपना business बनाने, नए ideas पर काम करने और अपनी मेहनत से एक अलग पहचान बनाने का सपना।</p>
+          <span class="dream-tag">DREAM · CREATE · ACHIEVE</span>
+        </article>
+      </div>
+
+      <div class="motivation-banner">
+        <span class="gold">“</span>
+        <p>सपने देखना शुरुआत है। उन्हें पूरा करने के लिए सीखना, कोशिश करना और आगे बढ़ते रहना जरूरी है।</p>
+      </div>
+    </section>
+
+    <!-- 5. MEMORIES & THOUGHTS -->
+    <section class="section memories-section" id="memories">
+      <div class="section-heading">
+        <span class="eyebrow">LITTLE THINGS, BIG MEANING</span>
+        <h2>Memories & <span class="gold">Thoughts.</span></h2>
+        <p>कुछ पल तस्वीरों में, कुछ यादों में और कुछ दिल के करीब रहते हैं।</p>
+      </div>
+
+      <div class="memories-grid">
+        <article class="memory-card">
+          <span class="memory-icon">♡</span>
+          <h3>Family First</h3>
+          <p>अपने परिवार की खुशी और उनके लिए बेहतर भविष्य बनाने की कोशिश मेरे लिए मायने रखती है।</p>
+        </article>
+        <article class="memory-card">
+          <span class="memory-icon">✧</span>
+          <h3>Keep Learning</h3>
+          <p>नई चीजें सीखना और नए experiences लेना मेरी पसंद का हिस्सा है।</p>
+        </article>
+        <article class="memory-card">
+          <span class="memory-icon">↗</span>
+          <h3>Keep Moving</h3>
+          <p>हर दिन कुछ नया सीखने और अपने लक्ष्य की ओर आगे बढ़ने का एक और मौका है।</p>
+        </article>
+      </div>
+
+      <div class="empty-memory">
+        <span>✦</span>
+        <h3>Your memories belong here.</h3>
+        <p>तुम्हारी खास यादें और उनके captions यहाँ बाद में जोड़े जा सकते हैं।</p>
+      </div>
+    </section>
+
+    <!-- 6. CONTACT & SOCIAL MEDIA -->
+    <section class="section contact-section" id="contact">
+      <div class="contact-card">
+        <span class="eyebrow">LET'S CONNECT</span>
+        <h2>Stay Connected<br><span class="gold">With CIRIS.</span></h2>
+        <p>मेरी journey को follow करो और मेरे नए experiences से जुड़े रहो।</p>
+
+        <div class="contact-links">
+          <a href="https://www.instagram.com/xx_ciris/"
+             target="_blank" rel="noopener noreferrer" class="btn btn-gold">
+            Instagram ↗
+          </a>
+          <a href="https://www.youtube.com/@KrishandSuhani"
+             target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+            YouTube ↗
+          </a>
+          <button class="btn btn-outline" id="contactShareBtn">Share My Profile ↗</button>
+        </div>
+
+        <p class="contact-small">CIRIS — My Life, My Journey, My Identity.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="#home" class="footer-brand">CIRIS<span class="gold">.</span></a>
+    <p>Made with purpose by Krish Kumar.</p>
+    <p class="copyright">© <span id="year"></span> CIRIS. All rights reserved.</p>
+    <button id="musicBtn" class="music-btn" aria-pressed="false">
+      ♫ <span id="musicLabel">Music: Off</span>
+    </button>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+  <!-- Full-screen photo viewer -->
+  <div class="lightbox" id="lightbox" role="dialog"
+       aria-modal="true" aria-label="Photo viewer" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close">×</button>
+    <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous photo">‹</button>
+    <figure>
+      <img id="lightboxImage" src="" alt="">
+      <figcaption id="lightboxCaption"></figcaption>
+    </figure>
+    <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next photo">›</button>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
